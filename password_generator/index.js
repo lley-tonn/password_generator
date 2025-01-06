@@ -32,4 +32,4 @@ const includeSymbols = true;
 
 const password = generatePassword(passwordLength,includeLowerCase,includeNumbers,includeSymbols,includeUpperCase);
 
-console.log(`Generated password: ${password}`);
+document.write(`Generated password: ${password}`);
